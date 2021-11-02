@@ -2,8 +2,24 @@
     margin: 0;
     padding: 0;
 }
-.riot{
-    width: 960px;
-    margin: 0 auto;
-    background: blue;
+nav {
+    background: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    padding: 0 2rem;
+    align-items: center;
+}
+ul {
+    margin-left: 60%;
+    margin-top: -40px;
+    display: flex;
+    list-style: none;
+}
+ul li {
+    margin-left: 3rem;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
 }
