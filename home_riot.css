@@ -23,3 +23,36 @@ ul li a {
     color: white;
     text-decoration: none;
 }
+header {
+    margin-top: 1.3rem;
+    height: 400px;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    background: url(image/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-info {
+    /*border: 1px solid red;*/
+    width: 500px;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    color: rgb(255, 255, 255);
+}
+.header-info h1 {
+    font-size: 3rem;
+}
+.header-info p {
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+.header-info a {
+    color: white;
+    border: 1px solid white;
+    padding: .5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+}
+a:hover {
+    background-color: rgb(188, 245, 255);
+}
