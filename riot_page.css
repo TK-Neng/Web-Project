@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    padding: 0 2rem;
+    align-items: center;
+}
+ul {
+    margin-left: 90%;
+    margin-top: -40px;
+    display: flex;
+    list-style: none;
+}
+ul li {
+    margin-left: 3rem;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+ul li a:hover {
+    background-color: red;
+}
+header {
+    margin-top: 1.3rem;
+    height: 400px;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    background: url(image/riotpage_background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header-info {
+    /*border: 1px solid red;*/
+    width: 500px;
+    color: black;
+    margin-left: 50rem;
+    margin-top: -5rem;
+    position: relative;
+    animation-name: text;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes text {
+    from {top: 0px;}
+    to {top: 14rem; color: white;}
+}
+.header-info h1 {
+    font-size: 4rem;
+}
+.header-info1 {
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+.header-info1 img {
+    border-radius: 12px;
+}
+.header-info2 {
+    color: white;
+    /*border: 1px solid red;*/
+    width: 70px;
+    margin-left: 47rem;
+    margin-top: -13rem;
+    text-align: center;
+    background-color: red;
+    position: relative;
+    animation-name: riot;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+}
+@keyframes riot {
+    from {margin-left: 51rem; background-color: black; color: black;}
+    to {top: 0px;}
+}
+.header-info2 h1 {
+    font-size: 15px;
+}
