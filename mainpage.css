@@ -90,3 +90,23 @@ main > h1 {
     width: 960px;
     margin: 0 auto;
 }
+.pictures1 {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+.pictures1 figure img {
+    margin-left: 1.3rem;
+    width: 90%;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+.pictures1 figure img:hover {
+    border: 2px solid black;
+}
+.container1 {
+    margin: 0 auto;
+}
+
