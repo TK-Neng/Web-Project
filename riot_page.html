@@ -7,6 +7,28 @@
     <link rel="icon" href="image/riot1.ico"> 
 </head>
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                 mybutton.style.display = "block";
+            } else {
+               mybutton.style.display = "none";
+            }
+         }
+
+      // When the user clicks on the button, scroll to the top of the document
+       function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+         }
+    </script>
     <nav>
         <div class="logo"><img src="image/riot_logo.png" alt="riot_logo" width="60" height="60"></div>
         <div class="logo"><h1>Riot Games</h1></div>
@@ -55,9 +77,33 @@
         </div>
         <div class="container">
             <h1>หลักการค่านิยมของเรา</h1>
-            <section>
+            <section class="maincontainer">
                <h2>ประสบการณ์ของผู้เล่นต้องมาก่อน</h2>
-        </section>
+               <img src="image/lolworldsimage.jpg" alt="lolworldsimage" width="400" height="250">
+               <p>เราเชื่อว่าการมุ่งเน้นของเราไปที่ผู้เล่นจะสร้างแรงบันดาลใจให้กับ
+                  ประสบการณ์การเล่นเกมที่มีความหมายและยั่งยืนที่สุด</p>
+                <ul>
+                    <li>เราวางผู้เล่นไว้เป็นศูนย์กลางของทุกสิ่งที่เราทำ</li>
+                    <li>เราต่างมึความรักในเกมและจัดลำดับความสำคัญของการเล่นเป็นส่วนสำคัญในชีวิตของเรา</li>
+                    <li>เราเอาใจใส่และทำความเข้าใจให้ลึกซึ้งยิ่งขึ้นโดยการฟัง เรียนรู้และมีส่วนร่วมกับผู้เล่นทั่วโลก</li>
+                </ul>
+           </section>
+           <section class="main2container">
+               <h2>กล้าที่จะฝัน</h2>
+               <img src="image/lol2017.jpg" alt="lol2017image" width="400" height="250">
+               <p>เราเชื่อว่าความกล้าหาญในการไล่ล่าความคิดที่มีความกล้าหาญ
+                   จะทำให้ความฝันที่เป็นไปไม่ได้เป็นจริงสำหรับผู้เล่น
+               </p>
+               <ul>
+                   <li>เราทำการเดิมพันที่มุ่งมั่นและชัดเจนโดยมีเป้าหมายเพื่อพัฒนาแนวการเล่นเกม</li>
+                   <li>เราแสวงหามุมมองที่ไม่ไม่เหมือนใคร สร้างพื้นที่สำหรับการทดลองและคาดไว้เลยว่าความล้มเหลวเป็นส่วนหนึ่งของการเดินทาง</li>
+                   <li>เราทำทำงานด้วยแนวทางปฏิบัติที่ดีที่สุด ให้คุณค่ากับความเชี่ยวชาญและสร้างสรรค์สิ่งใหม่ๆเมื่อมีวิธีที่ดีกว่า</li>
+               </ul>
+           </section>
+           <section class="main3container">
+               <h2>ก้าวหน้าไปด้วยกัน</h2>
+               <p>เราเชื่อว่าเราแข็งแกร่งขึ้นเมื่อเราเคารพ</p>
+           </section>
         </div>
     </main>
 </body>
