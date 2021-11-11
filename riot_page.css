@@ -233,3 +233,73 @@ main > h1{
     padding-top: 20px;
     font-size: 1.2rem;
 }
+.main4container {
+    overflow: hidden;
+    background: rgb(255, 231, 202);
+    height: 350px;
+}
+.main4container h2 {
+    font-size: 2rem;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 1000px;
+    text-shadow: 2px 2px 5px grey; 
+}
+.main4container img {
+    margin-left: 1000px;
+    margin-top: 10px;
+    box-shadow: 4px 4px 5px black;
+    border-radius: 12px;
+}
+.main4container p {
+    margin-top: -16rem;
+    margin-left: 60px;
+    font-size: 1.2rem;
+}
+.main4container ul {
+    font-size: 1.2rem;
+    width: 700px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.main4container li {
+    padding-top: 20px;
+}
+.main5container {
+    overflow: hidden;
+    background: #ffe1e1;
+    height: 380px;
+}
+.main5container h2 {
+    font-size: 2rem;
+    width: 620px;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-shadow: 2px 2px 5px grey;
+}
+.main5container img {
+    margin-left: 130px;
+    margin-top: 20px;
+    box-shadow: 4px 4px 5px black;
+    border-radius: 12px;
+}
+.main5container p {
+    margin-left: 42rem;
+    font-size: 1.2rem;
+    margin-top: -14.5rem;
+}
+.main5container ul {
+    margin-left: 46rem;
+    margin-top: 10px;
+}
+.main5container li {
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+footer {
+    background: black;
+    padding: 1.9rem;
+    text-align: center;
+    color: white;
+    margin-top: -5rem;
+}
