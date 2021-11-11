@@ -10,23 +10,23 @@ nav {
     padding: 0 2rem;
     align-items: center;
 }
-.menu {
+.home {
     margin-left: 90%;
     margin-top: -40px;
     display: flex;
     list-style: none;
 }
-.menu li {
+.home li {
     margin-left: 3rem;
 }
-.menu li a {
+.home li a {
     color: white;
     text-decoration: none;
     padding: .5rem 1rem;
     border: 1px solid white;
     border-radius: 12px;
 }
-ul li a:hover {
+.home li a:hover {
     background-color: red;
 }
 header {
