@@ -29,3 +29,36 @@ nav {
 .home li a:hover {
     background-color: red;
 }
+header {
+    height: 350px;
+    margin-top: 1.3rem;
+    overflow: hidden;
+    background-image: url(image/League-of-Legends.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header-info {
+    width: 500px;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    color: rgb(255, 255, 255);
+}
+.header-info h1 {
+    font-size: 3rem;
+    text-shadow: 5px 5px 0px black;
+}
+.one {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+.one h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+.one p {
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
