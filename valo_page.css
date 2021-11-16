@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    padding: 0 2rem;
+    align-items: center;
+}
+.home {
+    margin-left: 83%;
+    margin-top: -40px;
+    display: flex;
+    list-style: none;
+}
+.home li {
+    margin-left: 2rem;
+}
+.home li a {
+    color: white;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.home li a:hover {
+    background-color: red;
+}
+header {
+    height: 350px;
+    margin-top: 1.3rem;
+    overflow: hidden;
+    background-image: url(image/valo-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header-info {
+    width: 500px;
+    margin-top: 6rem;
+    margin-left: 4rem;
+    color: rgb(150, 150, 150);
+}
+.header-info h1 {
+    font-size: 3rem;
+    text-shadow: 5px 5px 0px black;
+}
+.one1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    width: 900px;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.one2 {
+    border: 1px solid red;
+    margin-top: 40px;
+}
