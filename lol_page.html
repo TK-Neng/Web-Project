@@ -8,11 +8,34 @@
     <link rel="stylesheet" href="lol_page.css   ">
 </head>
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                 mybutton.style.display = "block";
+            } else {
+               mybutton.style.display = "none";
+            }
+         }
+
+      // When the user clicks on the button, scroll to the top of the document
+       function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+         }
+    </script>
     <nav>
         <div class="logo"><img src="image/riot_logo.png" alt="riot_logo" width="60" height="60"></div>
         <div class="logo"><h1>Riot Games</h1></div>
     </nav>
     <ul class="home">
+     <li><a href="https://lol.garena.in.th/download" target="_blank">Download</a></li>
      <li><a href="mainpage.html">Home</a></li>   
     </ul>
     <header>
@@ -35,8 +58,35 @@
                 โดยในปี 2011 พวกเขาได้ทำการเข้าซื้อหุ้น 93 เปอร์เซ็นต์ และในปี 2015 นักพัฒนาเกม LoL ได้ออกมาประกาศว่าพวกเขาขายหุ้นทั้งหมดให้กับ Tencent แล้ว</p>
         </section>
         <section class="two"> 
-            <h2>รูปแบบการเล่น</h2>
+            <div class="two1"><h2>รูปแบบการเล่น</h2><hr></div>
+            <div class="two2">
+                <img src="image/lol_gameplay.JPG" alt="lol_gameplay" width="400" height="250" class="two_img">
+              <div class="two3">
+                 <p>เกม LoL คือเกมที่จะให้เราสวมบทบาทเป็นผู้เรียกแชมเปียนส์ (Summoner) โดยเราจะเลือกแชมเปียนส์ 1 ตัว เข้าไปสู่สนามรบ 
+                    ตัวเกมจะเป็นการต่อสู้กับผู้เล่นคนอื่นแบบ 5 ต่อ 5 และมีมุมมองแบบบุคคลที่ 3</p>
+                 <p>รูปแบบการเล่นนั้นก็เหมือนกับเกม MOBA ทั่วไปตรงที่เริ่มมาแชมเปียนส์ของเราจะเลเวล 1 และเมื่อทำการสังหารมินเนียน 
+                    หรือแชมเปียนส์ฝั่งตรงข้ามจะได้รับค่าประสบการณ์ทำให้เลเวลอัพ และทองที่ทำไปซื้อไอเทมทำให้แข็งแกร่งขึ้นไปเรื่อย ๆ โดยเลเวลนั้นจะสูงสุดได้แค่ 18 เท่านั้น</p>
+                 <p>เกม LoL มีจุดประสงค์คล้าย ๆ เกม Dota คือการไปทำลายฐานทัพ (Nexus) 
+                   ของศัตรูให้ได้ หากใครทำลายได้ก่อนก็จะเป็นผู้ชนะไปนั่นเอง แต่ก่อนที่จะทำลายได้นั้น ผู้เล่นต้องงัดกลยุทธ์มาวัดกันว่า มีวิธีไหนที่จะทำลายได้เร็วที่สุดนั่นเอง</p>
+               </div>
+            </div>
+        </section>
+        <section class="three">
+            <div class="three1"><h2>ความเฉพาะตัวที่ MOBA ส่วนใหญ่ยังไม่มี</h2><hr></div>
+            <div class="three2">
+                <img src="image/lol_gameplay2.JPG" alt="lol_gameplay2" width="400" height="250" class="three_img">
+                <div class="three3">
+                    <p>สิ่งที่ League of Legends มีความเฉพาะตัวคือ จะไม่มีการสังหารมินเนียนฝั่งตัวเอง (Denied) แตกต่างจากเกม Dota, Inhibitor (Barrack) สามารถถือกำเนิดใหม่ได้, 
+                        ผู้เล่นทุกคนจะสามารถเลือก Summoner’s Spell ได้ 2 อย่างก่อนเริ่มเกม, มีระบบรูนและมาสเตอรี่ (การอัปเกรดค่าสถานะเพิ่มเติมก่อนเริ่มเกม), มีพุ่มไม้,แชมเปียนส์ส่วนใหญ่มีทั้งหมด 5 สกิล ซึ่งเป็นสกิลติดตัว (Passive) 
+                        1 สกิล และสกิลทั่วไปอีก 4 สกิล, หากแชมเปียนส์เราตาย จะไม่เสียทอง และมี Objective เฉพาะตัวที่ต่างจากเกมอื่น ๆ เช่น มังกร และ Baron</p>
+                    <p>ด้วยระบบอันแปลกประหลาดนี้ ทำให้ผู้เล่นเกม MOBA ยุคดั้งเดิมรู้สึกแปลกใหม่และเป็นตัวจุดประกายให้เกมได้รับความนิยมมากขึ้นเรื่อย ๆ เพราะ MOBA แบบเก่านั้นจะมีการตัดสินใจแบบยิบย่อย (Micro) 
+                        ค่อนข้างเยอะ แตกต่างจาก LoL ที่เน้นการตัดสินใจแบบใหญ่ ๆ (Macro) แทน ทำให้มือใหม่เข้าถึงได้ง่ายกว่า รวมทั้งกราฟิกแนวการ์ตูนด้วยทำให้เด็กรุ่นใหม่ชื่นชอบเป็นอย่างมาก</p>
+                </div>
+            </div>
         </section>
     </main>
+    <footer>
+        <p>&copy; Copyright 2021. ALL Rights Reserved</p>
+    </footer>
 </body>
 </html>
