@@ -8,6 +8,28 @@
     <link rel="stylesheet" href="valo_page.css">
 </head>
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                 mybutton.style.display = "block";
+            } else {
+               mybutton.style.display = "none";
+            }
+         }
+
+      // When the user clicks on the button, scroll to the top of the document
+       function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+         }
+    </script>
     <nav>
         <div class="logo"><img src="image/riot_logo.png" alt="riot_logo" width="60" height="60"></div>
         <div class="logo"><h1>Riot Games</h1></div>
@@ -25,14 +47,31 @@
         <section class="one">
             <div class="one1"><h2>Project A ที่เปลี่ยนชื่อเป็น Valorant</h2><hr></div>
             <div class="one2">
-                <p>หลังจากในงานครบรอบ 10 ปีที่ผ่านมาของค่ายเกม Riot ได้มีการเปิดตัวเกมมากมายออกมาไปซึ่งหนึ่งในนั้นก็มีอยู่โปรเจกต์นึงที่ได้รับความสนใจเป็นอย่างมากนั้นก็คือ Project A ซึ่งเป็นเกมแนว FPS รูปแบบที่หลายคนบอกว่าคล้ายกับ CS:GO ผสม Overwatch</p>
+                <p id="pp">หลังจากในงานครบรอบ 10 ปีที่ผ่านมาของค่ายเกม Riot ได้มีการเปิดตัวเกมมากมายออกมาไปซึ่งหนึ่งในนั้นก็มีอยู่โปรเจกต์นึงที่ได้รับความสนใจเป็นอย่างมากนั้นก็คือ Project A ซึ่งเป็นเกมแนว FPS รูปแบบที่หลายคนบอกว่าคล้ายกับ CS:GO ผสม Overwatch</p>
                 <div class="video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/4iGU6PctOBg" title="YouTube video player" frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <p></p>
+                <p>ซึ่งหลังจากที่กระแสเงียบหายไปสักพักในที่สุดเมื่อไม่นานมานี้หลังจากที่มีภาพหลุดออกมาเพิ่มเติมอีกเล็กน้อยนอกจากตัวอย่างแรกที่เผย
+                    ไปสร้างกระแสวิเคราะห์ได้เป็นอย่างดีจากบรรดาผู้เล่นทั้งหลาย</p>
+                <p>ก่อนที่หลังจากนั้นไม่นานในที่สุดทาง Riot ก็ได้มีการเปิดตัวเกม Project A อย่างเป็นทางการโดยใช้ชื่อเกมว่า Valorant
+                   พร้อมด้วย Teaser สั้น ๆ ออกมาให้บรรดาสาวกได้ชื่นใจกัน</p>
+                <div class="video">
+                    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FPlayVALORANT%2Fvideos%2F2493698570879813%2F&show_text=0&width=560" width="560" height="315" 
+                    style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                </div>
+                <p>โดยในคลิปสั้นดังกล่าวเปิดเผยเพียงแค่ว่าเกมจะมีชื่อของมันที่เปลี่ยนจาก Project A เป็น Valorant แต่นอกจากนี้แล้วพวกเขายังได้มีการบอกใบ้ถึงช่วงเวลาที่จะเปิดตัวซึ่งเขียนเป็นหลาย ๆ ภาษาแต่สรุปได้ว่าน่าจะมาในช่วง Summer 2020 ให้บรรดาผู้เล่นได้เข้าไปทดลองกัน</p>
+                <p>ยังไม่หมดเพราะเมื่อเข้าไปดูในเพจมาแล้วพวกเขายังได้มีการแอบปล่อยคลิป Gameplay ที่ยังไม่สมบูรณ์ดีลงบน Youtube อีกด้วยซึ่งบอกเลยว่าแฟน ๆ เป็นตาลุกวาวและน่าเล่นไม่น้อยเลยทีเดียวครับ</p>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/g8amyzDHOKw" title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p>จากที่เราเห็นนั้นจะพบว่าตัวเกมมีความผสมผสานกับระหว่าง CS:GO กับ Overwatch ค่อนข้างมาก และจากเสียงนักวิจารณ์ที่เคยเล่น CS:GO มาก่อนยังต้องเอ่ยชมว่านี้เป็นเกมที่สนุกที่สุดในรอบหลายปีหลังจาก CS:GO เลยทีเดียวครับ</p>
             </div>
         </section>
     </main>
+    <footer>
+        <p>&copy; Copyright 2021. ALL Rights Reserved</p>
+    </footer>
 </body>
 </html>
