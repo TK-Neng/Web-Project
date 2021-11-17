@@ -149,7 +149,7 @@ main > h1{
 .maincontainer {
     overflow: hidden;
     background: #ffe1e1;
-    height: 350px;
+    height: 400px;
 }
 #myBtn {
     display: none; /* Hidden by default */
@@ -173,10 +173,10 @@ main > h1{
 .main2container {
     background: rgb(255, 231, 202);
     overflow: hidden;
-    height: 350px;
+    height: 400px;
 }
 .main2container img {
-    margin-left: 1000px;
+    margin-left: 900px;
     margin-top: 10px;
     box-shadow: 4px 4px 5px black;
     border-radius: 12px;
@@ -185,13 +185,14 @@ main > h1{
     font-size: 2rem;
     width: 500px;
     margin-top: 20px;
-    margin-left: 1120px;
+    margin-left: 1020px;
     text-shadow: 2px 2px 5px grey; 
 }
 .main2container p {
-    margin-top: -15rem;
+    margin-top: -17rem;
     margin-left: 30px;
     font-size: 1.2rem;
+    width: 800px;
 }
 .main2container ul {
     font-size: 1.2rem;
@@ -205,7 +206,7 @@ main > h1{
 .main3container {
     overflow: hidden;
     background: #ffe1e1;
-    height: 360px;
+    height: 400px;
 }
 .main3container h2 {
     font-size: 2rem;
@@ -236,17 +237,17 @@ main > h1{
 .main4container {
     overflow: hidden;
     background: rgb(255, 231, 202);
-    height: 350px;
+    height: 400px;
 }
 .main4container h2 {
     font-size: 2rem;
     width: 500px;
     margin-top: 20px;
-    margin-left: 1000px;
+    margin-left: 900px;
     text-shadow: 2px 2px 5px grey; 
 }
 .main4container img {
-    margin-left: 1000px;
+    margin-left: 900px;
     margin-top: 10px;
     box-shadow: 4px 4px 5px black;
     border-radius: 12px;
@@ -268,7 +269,7 @@ main > h1{
 .main5container {
     overflow: hidden;
     background: #ffe1e1;
-    height: 380px;
+    height: 400px;
 }
 .main5container h2 {
     font-size: 2rem;
@@ -298,8 +299,8 @@ main > h1{
 }
 footer {
     background: black;
-    padding: 1.9rem;
+    padding: 1rem;
     text-align: center;
     color: white;
-    margin-top: -5rem;
+    margin-top: -50px;
 }

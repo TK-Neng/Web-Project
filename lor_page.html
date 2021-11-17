@@ -8,6 +8,28 @@
     <link rel="icon" type="image/x-icon" href="https://img.icons8.com/plasticine/100/000000/legends-of-runeterra.png">
 </head>
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                 mybutton.style.display = "block";
+            } else {
+               mybutton.style.display = "none";
+            }
+         }
+
+      // When the user clicks on the button, scroll to the top of the document
+       function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+         }
+    </script>
     <nav>
         <div class="logo"><img src="image/riot_logo.png" alt="riot_logo" width="60" height="60"></div>
         <div class="logo"><h1>Riot Games</h1></div>
@@ -32,8 +54,17 @@
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/BkPpgMwPss0" title="YouTube video player" frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+                <p>จากที่ก่อนหน้านี้ ที่ Riot เคยกล่าวไว้ว่า ที่จริงพวกเขาแอบซุ่มพัฒนา LoR นี้มาหลายปีแล้วนั้น จากการทดสอบก็ได้เห็นว่า พวกเขาไม่ได้พูดเกินความจริงเลย 
+                    การ์ดแต่ละใบไม่ต่างกับผลงานศิลปะที่ถูกสรรสร้างออกมาอย่างวิจิตร พร้อมเนื้อเรื่องของตัวเองในแต่ละใบอย่างที่ได้กล่าวไป เราสามารถกดเข้าไปดูรายละเอียดของการ์ดได้ที่ 
+                    Collection ของเกม รวมถึงสามารถชมภาพ Splash Art แบบเต็ม ๆ ของทุกใบได้เช่นกัน</p>
+                <img src="image/lor_img.PNG" alt="lor_img" width="400" height="250" class="one2image">
+                <p id="one2">แน่นอนว่า นี่คือวิธีการอันแยบยลของเกมที่จะเป็นการบังคับกลาย ๆ ให้ผู้เล่นจะต้องทำความรู้จักกับการ์ดทุกใบในเกม เพื่อให้เราได้รู้ว่าการ์ดแต่ละใบนั้นมีความสามารถใดอยู่นั่นเอง 
+                    ทำให้เข้าใจและสามารถสรรคสร้างเทคนิคต่าง ๆ ได้มากขึ้น ในตอนนี้การ์ดใน LoR ก็มีแล้วนับร้อยใบ และแน่นอนว่าจะมีตามมาอีกในอนาคตอย่างแน่นอน ซึ่งก็หมายถึงเนื้อเรื่องใหม่ ๆ ที่ไม่รู้จบอีกด้วย</p>
             </div>
         </section>
     </main>
+    <footer>
+        <p>&copy; Copyright 2021. ALL Rights Reserved</p>
+    </footer>
 </body>
 </html>
