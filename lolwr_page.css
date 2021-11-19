@@ -62,3 +62,14 @@ header {
     margin-top: 40px;
     font-size: 1.3rem;
 }
+.oneimg {
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+}
+footer {
+    background: black;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
