@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teamfight Tactics</title>
+    <link rel="stylesheet" href="../css/tft_page.css">
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/LoL_icon.svg/32px-LoL_icon.svg.png"> 
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                 mybutton.style.display = "block";
+            } else {
+               mybutton.style.display = "none";
+            }
+         }
+
+      // When the user clicks on the button, scroll to the top of the document
+       function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+         }
+    </script>
+    <nav>
+        <div class="logo"><img src="../image/riot_logo.png" alt="riot_logo" width="60" height="60"></div>
+        <div class="logo"><h1>Riot Games</h1></div>
+    </nav>
+    <div class="menu">
+        <ul class="home">
+            <li><a href="https://teamfighttactics.leagueoflegends.com/en-us/" target="_blank">Download</a></li>
+            <li><a href="mainpage.html">Home</a></li>   
+        </ul>
+    </div>
+    <header>
+        <section class="header-info">
+            <h1>Teamfight Tactics คืออะไรกันแน่นะ ?</h1>
+        </section>
+    </header>
+    <main>
+        <section class="one">
+            <h2>Teamfight Tactics</h2><hr>
+            <p>เป็นเกมวางแผนต่อสู้โดยมีแชมเปี้ยนที่โดดเด่นจาก League of Legends 
+                เป้าหมายของคุณคือสร้างทีมที่ใหญ่ขึ้นและปกป้องบอร์ดของคุณเพื่อเป็นคนสุดท้ายที่ยืนหยัด นี่เป็นข้อมูลพื้นฐานต่าง ๆ ที่คุณต้องรู้ก่อนเริ่มเล่น</p>
+            <img src="../image/tft_img1.jpg" alt="tft_img1" width="800" height="400" class="one_img">
+            <p>Teamfight Tactics เป็นการต่อสู้ PvP อัตโนมัติแบบผลัดกันเล่น คุณจะต้องจัดทีมต่อสู้อัตโนมัติสู้กับแฝดนรกของคุณ 
+                หากคุณไม่เคยเล่นแนววางหมากต่อสู้อัตโนมัติมาก่อน ไม่ต้องกังวลไป! TFT ได้ยืมคอนเซ็ปต์เกมวางแผนมากมายที่คุณชื่นชอบ เช่น 
+                แย่งทรัพยากรกันในตอนเริ่มเกม จัดทีม บริหารเงินในกระเป๋าของคุณ ไปจนถึงการวางตำแหน่ง</p>
+                <p>วิธีเล่นเป็นแบบนี้: คุณจะเผชิญหน้ากับผู้เล่นอื่นตัวต่อตัวจนกว่าจะเหลือคนสุดท้าย คุณจะชนะจากการมีทีมที่ดีสุดที่คุณจัดได้ 
+                    โดยการรวบรวมแชมเปี้ยนต่าง ๆ สวมใส่ไอเทมแข็งแกร่งให้พวกเขา บริหารทองให้ดีเพื่อเอาชนะการแข่งขัน 
+                    และวางตำแหน่งทีมของคุณให้อยู่ในรูปแบบการต่อสู้ที่มีโอกาสชนะมากที่สุด กลยุทธ์ในการเอาชนะไม่มีที่สิ้นสุด 
+                    ฉะนั้นคุณจะต้องจัดทีมของคุณให้เข้ากับสถานการณ์ที่แตกต่างกันออกไปในทุก ๆ เกมเพื่อเป็นที่หนึ่ง</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Copyright 2021. ALL Rights Reserved</p>
+    </footer>
+</body>
+</html>

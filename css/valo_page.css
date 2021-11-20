@@ -33,7 +33,7 @@ header {
     height: 350px;
     margin-top: 1.3rem;
     overflow: hidden;
-    background-image: url(image/valo-background.jpg);
+    background-image: url(../image/valo-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

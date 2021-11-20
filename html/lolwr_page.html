@@ -5,9 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>League of Legends Wild Rift</title>
     <link rel="icon" type="image/x-icon" href="https://img.icons8.com/plasticine/100/000000/league-of-legends.png">
-    <link rel="stylesheet" href="lolwr_page.css">
+    <link rel="stylesheet" href="../css/lolwr_page.css">
 </head>
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                 mybutton.style.display = "block";
+            } else {
+               mybutton.style.display = "none";
+            }
+         }
+
+      // When the user clicks on the button, scroll to the top of the document
+       function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+         }
+    </script>
     <nav>
         <div class="logo"><img src="image/riot_logo.png" alt="riot_logo" width="60" height="60"></div>
         <div class="logo"><h1>Riot Games</h1></div>
@@ -31,7 +53,7 @@
             <p>แต่เดิมเกม LoL นั้นเป็นเกม Moba ที่อยู่ใน PC อย่างเดียว แต่ด้วยความที่อุตสาหกรรมเกมพัฒนาไปเรื่อย ๆ 
                 มือถือเลยมีความสำคัญมากขึ้นจนกลายเป็นส่วนแบ่งตลาดขนาดใหญ่ในอุตสาหกรรมเกมไปแล้ว</p>
             <p>ด้วยเหตุนี้ทาง Riot Games ผู้สร้าง LoL เลยตัดสินใจนำเกม LoL มาปรับเพื่อให้สามารถเล่นในมือถือได้นั่นเอง</p>
-            <img src="image/lolwr_img1.jpg" alt="lolwr_img1" class="oneimg" width="800" height="400">
+            <img src="../image/lolwr_img1.jpg" alt="lolwr_img1" class="oneimg" width="800" height="400">
             <p>จุดที่น่าสนใจคือ ทาง Riot Games บอกว่าไม่ได้นำเอา LoL จากบน PC มายัดไว้ในมือถือเฉย ๆ แต่พวกเขา ‘สร้างเกม LoL’ 
                 ขึ้นมาใหม่จาก 0 เลย ทำให้มีหลาย ๆ ส่วนใน LoL Wild Rift แตกต่างจาก LoL PC เช่นท่าทางการเดิน 
                 และสกิลของตัวละครซึ่งจากตัวอย่างเราก็เห็นกันแล้วว่ามีบางอย่างเปลี่ยนแปลงไปจริง ๆ </p>

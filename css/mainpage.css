@@ -11,13 +11,13 @@ nav {
     align-items: center;
 }
 .home {
-    margin-left: 80%;
+    margin-left: 90%;
     margin-top: -40px;
     display: flex;
     list-style: none;
 }
 .home li {
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 .home li a {
     color: white;
@@ -30,98 +30,90 @@ nav {
     background-color: red;
 }
 header {
-    height: 350px;
     margin-top: 1.3rem;
+    height: 400px;
     overflow: hidden;
-    background-image: url(image/League-of-Legends.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    /*border: 1px solid red;*/
+    background: url(../image/background.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .header-info {
+    /*border: 1px solid red;*/
     width: 500px;
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-left: 4rem;
     color: rgb(255, 255, 255);
 }
 .header-info h1 {
     font-size: 3rem;
-    text-shadow: 5px 5px 0px black;
 }
-.one {
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3rem;
+.header-info p {
+    margin: 1rem 0;
+    line-height: 1.5;
 }
-.one h2 {
+.header-info a {
+    color: white;
+    border: 1px solid white;
+    padding: .5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+}
+header a:hover {
+    background-color: rgb(188, 245, 255);
+}
+main {
+    padding: 3rem 0;
+}
+main > h1 {
     text-align: center;
+    margin-bottom: 1rem;
     font-size: 2.5rem;
 }
-.one p {
-    margin-top: 20px;
-    font-size: 1.3rem;
+.pictures {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
 }
-.two1 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5rem;
-    width: 900px;
-    font-size: 1.7rem;
-    text-align: center;
+.pictures figure img {
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
 }
-.two2 {
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+.pictures figure img:hover {
+    border: 3px solid black;
 }
-.two_img {
-    float: left;
-    border-radius: 12px;
-    box-shadow: 2px 2px 5px black; 
-    margin-right: 30px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    margin-left: 20px;
+.container {
+    width: 960px;
+    margin: 0 auto;
 }
-.two3 p {
-    font-size: 1.3rem;
-    margin-top: 20px;
+.pictures1 {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
 }
-.three1 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5rem;
-    width: 900px;
-    font-size: 1.7rem;
-    text-align: center;
+.pictures1 figure img {
+    margin-left: 1.3rem;
+    width: 90%;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
 }
-.three_img {
-    float: right;
-    border-radius: 12px;
-    box-shadow: 2px 2px 5px black; 
-    margin-right: 30px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    margin-left: 20px;
+.pictures1 figure img:hover {
+    border: 2px solid black;
 }
-.three2 {
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-}
-.three3 p {
-    font-size: 1.3rem;
-    margin-top: 40px;
+.container1 {
+    margin: 0 auto;
 }
 footer {
     background: black;
     padding: 1rem;
     text-align: center;
     color: white;
-    margin-top: 70px;
 }
 #myBtn {
     display: none; /* Hidden by default */

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    padding: 0 2rem;
+    align-items: center;
+}
+.home {
+    margin-left: 90%;
+    margin-top: -40px;
+    display: flex;
+    list-style: none;
+}
+.home li {
+    margin-left: 3rem;
+}
+.home li a {
+    color: white;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.home li a:hover {
+    background-color: red;
+}
+header {
+    margin-top: 1.3rem;
+    height: 400px;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    background: url(../image/riotpage_background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header-info {
+    /*border: 1px solid red;*/
+    width: 500px;
+    color: black;
+    margin-left: 50rem;
+    margin-top: -5rem;
+    position: relative;
+    animation-name: text;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes text {
+    from {top: 0px;}
+    to {top: 14rem; color: white;}
+}
+.header-info h1 {
+    font-size: 4rem;
+}
+.header-info1 {
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+.header-info1 img {
+    border-radius: 12px;
+}
+.header-info2 {
+    color: white;
+    /*border: 1px solid red;*/
+    width: 70px;
+    margin-left: 47rem;
+    margin-top: -13rem;
+    text-align: center;
+    background-color: red;
+    position: relative;
+    animation-name: riot;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+}
+@keyframes riot {
+    from {margin-left: 51rem; background-color: black; color: black;}
+    to {top: 0px;}
+}
+.header-info2 h1 {
+    font-size: 15px;
+}
+main {
+    padding: 5rem 0;
+}
+main > h1{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #676464;
+}
+.story {
+    /*border: 1px solid red;*/
+    width: 920px;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 60px;
+}
+.story p {
+    font-size: 1.47rem;
+    padding: .25rem 0;
+}
+.story a {
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    color: black;
+}
+.story a:hover {
+    border-bottom: 2px solid red;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+footer {
+    background: black;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+}
